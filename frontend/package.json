@@ -1,0 +1,36 @@
+{
+  "name": "@14bits/3d-website-frontend",
+  "version": "0.0.1",
+  "description": "3D website frontend",
+  "keywords": [
+    "Node.JS",
+    "there.js",
+    "DevOps"
+  ],
+  "author": "J1nH4ng <j1nh4ng@icloud.com>",
+  "contributors": [
+    "J1nH4ng <j1nh4ng@icloud.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J1nH4ng/3D-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/J1nH4ng/3D-Website/issues",
+    "email": "j1nh4ng@icloud.com"
+  },
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "engines": {
+    "node": ">=20.18.3",
+    "pnpm": ">=8.0.0"
+  }
+}
