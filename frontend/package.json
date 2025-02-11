@@ -27,6 +27,7 @@
     "build": "rspack build -c rspacke.config.ts"
   },
   "dependencies": {
+    "tailwindcss": "^4.0.6",
     "there": "^0.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
