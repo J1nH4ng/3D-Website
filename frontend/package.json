@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "3D website frontend",
   "keywords": [
-    "Node.JS",
+    "node.js",
     "there.js",
-    "DevOps"
+    "devops"
   ],
   "author": "J1nH4ng <j1nh4ng@icloud.com>",
   "contributors": [
@@ -22,15 +22,21 @@
     "email": "j1nh4ng@icloud.com"
   },
   "main": "index.ts",
-  "scripts": {},
-  "dependencies": {
-
+  "scripts": {
+    "serve": "rspack serve",
+    "build": "rspack build -c rspacke.config.ts"
   },
-  "devDependencies": {
-
+  "dependencies": {
+    "there": "^0.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": ">=20.18.3",
     "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.2.2",
+    "@rspack/core": "^1.2.2"
   }
 }
