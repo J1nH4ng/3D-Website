@@ -3,6 +3,6 @@ import { defineConfig } from '@rspack/cli';
 // @ts-check
 export default defineConfig({
     entry: {
-        main: './src/index.ts'
+        main: './src/main.ts'
     }
 });
