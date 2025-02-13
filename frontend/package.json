@@ -30,7 +30,9 @@
     "tailwindcss": "^4.0.6",
     "there": "^0.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vue": "^3.5.13",
+    "vue-cli": "^2.9.6"
   },
   "engines": {
     "node": ">=20.18.2",
