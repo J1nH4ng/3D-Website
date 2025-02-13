@@ -16,7 +16,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>测试 Glassmorphism 组件</title>
+  <title>测试 GlassMorphism 组件</title>
   <style>
     body {
       display: flex;
@@ -24,7 +24,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: linear-gradient(135deg, #6e8efb, #4a6cf7);
+      background: linear-gradient(135deg, rgba(44, 90, 238, 0.82), #e8b139);
       font-family: Arial, sans-serif;
       gap: 20px;
     }
@@ -32,17 +32,16 @@
 </head>
 <body>
   <div id="app">
-    <glassmorphism-box :icon-path="icon1"></glassmorphism-box>
-    <glassmorphism-box :icon-path="icon2"></glassmorphism-box>
+    <glass-morphism-box :icon-path="'./src/assets/icons/LogosApple.svg'"></glass-morphism-box>
   </div>
 
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script>
     const { createApp } = Vue;
 
-    const GlassmorphismBox = {
+    const GlassMorphismBox = {
       template: `
-        <div class="glassmorphism-container">
+        <div class="glass-morphism-container">
           <div class="icon-placeholder">
             <img :src="iconPath" alt="图标" />
           </div>
@@ -65,12 +64,12 @@
       },
     });
 
-    app.component('GlassmorphismBox', GlassmorphismBox);
+    app.component('GlassMorphismBox', GlassMorphismBox);
     app.mount('#app');
   </script>
 
   <style>
-    .glassmorphism-container {
+    .glass-morphism-container {
       width: 150px;
       height: 150px;
       background: rgba(255, 255, 255, 0.1);

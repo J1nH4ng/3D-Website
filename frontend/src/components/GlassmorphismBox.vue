@@ -1,5 +1,5 @@
 <template>
-    <div class="glassmorphism-container">
+    <div class="glass-morphism-container">
         <div class="icon-placeholder">
             <img :src="iconPath" alt="icon"/>
         </div>
@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: "GlassmorphismBox",
+        name: "GlassMorphismBox",
         props: {
             iconPath:  {
                 type: String,
@@ -19,14 +19,14 @@
 </script>
 
 <style scoped>
-.glassmorphism-continer {
+.glass-morphism-container {
     width:150px;
     height: 150px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    border: 1px  solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rbga(31, 38, 135, 0.37);
+    border: 2px  solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: centet;
+    align-items: center;
 }
 
 .icon-placeholder img {
